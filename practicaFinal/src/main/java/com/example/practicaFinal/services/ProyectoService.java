@@ -35,7 +35,7 @@ public class ProyectoService {
     }
 
     private void validarDescripcion(Proyecto proyecto){
-        if (proyectoRepository.existsByDescripcionIgnoreCase(proyecto.getDescripcion())) {
+        if (proyectoRepository.existsByDescripcionIgnoreCase(proyecto.getDescripcion().trim())) {
             throw new ExcepcionPersonalizada("Ya existe un proyecto con esa descripcion: " + proyecto.getDescripcion());
         }
     }

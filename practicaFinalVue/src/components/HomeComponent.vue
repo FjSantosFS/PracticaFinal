@@ -5,8 +5,8 @@
       <v-list>
         <v-list-item>
           <img
-            src="@/assets/images/Logo sin tipografía blanco.png"
-            style="display: block; margin: 0 auto; width: 48px"
+            src="@/assets/images/Logo_blanco_Future_Space_sin_fondo.png"
+            style="width: 170px; height: 38px"
           />
         </v-list-item>
 
@@ -81,7 +81,8 @@ body,
 
 /* Estilo para la imagen del título */
 .title-image {
-  max-width: 300px;
+  min-width: 500px;
+  max-width: 500px;
   width: 100%;
   height: auto;
 }
@@ -107,7 +108,7 @@ body,
 }
 
 .v-navigation-drawer .v-list-item-title {
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .v-navigation-drawer .v-list-item {

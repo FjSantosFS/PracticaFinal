@@ -5,8 +5,8 @@
       <v-list>
         <v-list-item>
           <img
-            src="@/assets/images/Logo sin tipografía blanco.png"
-            style="display: block; margin: 0 auto; width: 48px"
+            src="@/assets/images/Logo_blanco_Future_Space_sin_fondo.png"
+            style="width: 170px; height: 38px"
           />
         </v-list-item>
 
@@ -39,6 +39,7 @@
           label="Buscar por nombre"
           append-icon="mdi-magnify"
           @input="fetchEmpleados(searchQuery)"
+          style="max-width: 400px"
         ></v-text-field>
         <v-btn class="alta-btn" @click="openAddDialog(item)"
           >ALTA EMPLEADO</v-btn
@@ -819,6 +820,8 @@ body,
 .alta-btn {
   margin-bottom: 10px;
   background-color: #026fc1;
+  max-width: 170px;
+  min-width: 170px;
 }
 
 .alta-btn:hover {
@@ -869,7 +872,7 @@ body,
 }
 
 .v-toolbar-title {
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .v-list-item {
